@@ -78,6 +78,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
     public  static int randomDiceValue(){
+
         return RANDOM.nextInt(6)+1;
     }
 }
