@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         low =(Button)findViewById(R.id.low);
         image1=(ImageView) findViewById(R.id.image1);
         image2=(ImageView) findViewById(R.id.image2);
-        text=(TextView) findViewById(R.id.textView4);
+        text=(TextView) findViewById(R.id.result);
 
         high.setOnClickListener(new View.OnClickListener() {
             @Override
